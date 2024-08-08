@@ -1,0 +1,13 @@
+server:
+  port: 80
+  error:
+    whitelabel:
+      enabled: false
+
+
+jdbc:
+  login:
+    driver: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:sqlserver://;serverName=1.237.52.187;port=14032;databaseName=LC04_LABGE
+    username: labge
+    password: 2nd@LabGen[0700]
